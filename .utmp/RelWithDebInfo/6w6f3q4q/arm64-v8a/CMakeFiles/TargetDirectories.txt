@@ -1,0 +1,5 @@
+/Users/santiago/Documents/Projects/SurviveDayWork/.utmp/RelWithDebInfo/6w6f3q4q/arm64-v8a/CMakeFiles/edit_cache.dir
+/Users/santiago/Documents/Projects/SurviveDayWork/.utmp/RelWithDebInfo/6w6f3q4q/arm64-v8a/CMakeFiles/rebuild_cache.dir
+/Users/santiago/Documents/Projects/SurviveDayWork/.utmp/RelWithDebInfo/6w6f3q4q/arm64-v8a/GameActivity/CMakeFiles/game.dir
+/Users/santiago/Documents/Projects/SurviveDayWork/.utmp/RelWithDebInfo/6w6f3q4q/arm64-v8a/GameActivity/CMakeFiles/edit_cache.dir
+/Users/santiago/Documents/Projects/SurviveDayWork/.utmp/RelWithDebInfo/6w6f3q4q/arm64-v8a/GameActivity/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0b4a8843001420c4197015d9b24c213d
+timeCreated: 1471434652
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 27695
+  packageName: Ultimate Joystick
+  packageVersion: 3.2.1
+  assetPath: Assets/Tank & Healer Studio/Ultimate Joystick/_Examples/Spaceship Example/Prefabs/Asteroid.prefab
+  uploadId: 552382

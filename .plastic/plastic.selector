@@ -1,0 +1,4 @@
+repository "SurviveDay@Sangallc@cloud"
+  path "/"
+    br "/main"
+    co "/main"

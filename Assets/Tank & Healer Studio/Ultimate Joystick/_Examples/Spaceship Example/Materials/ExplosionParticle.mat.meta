@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0a5858e7315e5874bb389607a6c0dd15
+timeCreated: 1471446828
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 27695
+  packageName: Ultimate Joystick
+  packageVersion: 3.2.1
+  assetPath: Assets/Tank & Healer Studio/Ultimate Joystick/_Examples/Spaceship Example/Materials/ExplosionParticle.mat
+  uploadId: 552382

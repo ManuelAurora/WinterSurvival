@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4088bf6d3a4af424b831e9f590a1ee37
+timeCreated: 1471997336
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 27695
+  packageName: Ultimate Joystick
+  packageVersion: 3.2.1
+  assetPath: Assets/Tank & Healer Studio/Ultimate Joystick/_Examples/Spaceship Example/Prefabs/PlayerExplosion.prefab
+  uploadId: 552382

@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Snow05NoRT
+  m_Shader: {fileID: 4800000, guid: e52bb9af1fde8f84e978e6e27e785bf8, type: 3}
+  m_Parent: {fileID: 2100000, guid: 4ffd90674786dcb498d8e18bb95e34e6, type: 2}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - USE_AL
+  - USE_LS
+  - USE_WC
+  - _TESSELLATION_EDGE
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: 677bd1beec3575f4d890c148a52ecfe8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CrackLayers:
+        m_Texture: {fileID: 2800000, guid: fab6e78bb71d26649919efc4dc495771, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _IceTex:
+        m_Texture: {fileID: 2800000, guid: 935a48e93c5bc3f40b87d85ecec8642d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: f5f644a1c96c02148a13a96b65b4f1a2, type: 3}
+        m_Scale: {x: 3, y: 3}
+        m_Offset: {x: 0, y: 0}
+    - _NormalTex:
+        m_Texture: {fileID: 2800000, guid: 324cad460aba8a14cb253a0f09541724, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxLayers:
+        m_Texture: {fileID: 2800000, guid: fab6e78bb71d26649919efc4dc495771, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Roughness:
+        m_Texture: {fileID: 2800000, guid: a66838d7be9a0924da41c8691cd696cb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SnowHeight:
+        m_Texture: {fileID: 2800000, guid: 829cc19f2c6d25e4fa66489a04146c13, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 2800000, guid: ee5a8c4683ea6c64c9cacd1026b37848, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _DisplacementColorMult: 0.85
+    - _DisplacementOffset: 0.3
+    - _HeightScale: 0.9
+    - _IndentDepth: 0.36
+    - _IndentStrength: 2.06
+    - _LightOffset: 0.134
+    - _MainTexMult: 0.24
+    - _NormalMultiplier: 0.19
+    - _NormalScale: 0.507
+    - _OffsetScale: 0.25
+    - _OverallScale: 1
+    - _ParalaxColorScale: -0.94
+    - _ReflectionStrength: 0.07
+    - _ShininessSnow: 15
+    - _USERT: 0
+    m_Colors:
+    - _BotColor: {r: 0.71649414, g: 0.8354979, b: 0.87058824, a: 1}
+    - _Color: {r: 0.951, g: 1, b: 0.9966515, a: 1}
+    - _CracksStrength: {r: -0.05, g: 0.11, b: 0.1, a: -0.06}
+    - _IceTint: {r: 0.106000006, g: 0.2676808, b: 1, a: 0.6862745}
+    - _ParalaxColor: {r: 0, g: 0.07394446, b: 0.12100001, a: 1}
+    - _ParallaxStrength: {r: 0, g: 0.15, b: 0.1, a: -0.15}
+    - _ReflectionColor: {r: 0, g: 0.099333376, b: 0.14899999, a: 0.8}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Snow07
+  m_Shader: {fileID: 4800000, guid: e52bb9af1fde8f84e978e6e27e785bf8, type: 3}
+  m_Parent: {fileID: 2100000, guid: 2f3d686011032634a94d7d96f806e0f1, type: 2}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - IS_ICE
+  - USE_AL
+  - USE_FOG
+  - USE_LS
+  - USE_RT
+  - USE_WC
+  - _TESSELLATION_EDGE
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _CrackLayers:
+        m_Texture: {fileID: 2800000, guid: e64dcca08f455e742988e11448dc949d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _IceTex:
+        m_Texture: {fileID: 2800000, guid: 28dbb4a1b0daf0749b475f1de1d6c1e2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 95cda4851763fbe45bad72a119cb999d, type: 3}
+        m_Scale: {x: 3, y: 3}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxLayers:
+        m_Texture: {fileID: 2800000, guid: e64dcca08f455e742988e11448dc949d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Roughness:
+        m_Texture: {fileID: 2800000, guid: 28dbb4a1b0daf0749b475f1de1d6c1e2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SnowHeight:
+        m_Texture: {fileID: 2800000, guid: ee5a8c4683ea6c64c9cacd1026b37848, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _DisplacementColorMult: 0.98
+    - _DisplacementOffset: 0.2
+    - _DisplacementStrength: 0.2
+    - _HeightScale: 0.87
+    - _ISICE: 1
+    - _IceScale: 1
+    - _LightOffset: 0.106
+    - _LittleSpecForce: 0.4
+    - _MainTexMult: 0.21
+    - _NormalScale: 0.268
+    - _OffsetScale: 0.6
+    - _OverallScale: 1.25
+    - _ParalaxColorScale: -1.05
+    - _ReflectionOpacity: 0.25
+    - _ReflectionStrength: 0.14
+    - _RoughnessStrength: 0.25
+    - _ShininessIce: 5
+    - _SpecForce: 3
+    - _TransitionPower: 0.75
+    m_Colors:
+    - _BotColor: {r: 0.744129, g: 0.88841856, b: 0.929, a: 1}
+    - _Color: {r: 0.8271529, g: 0.91863525, b: 0.97199994, a: 1}
+    - _CracksStrength: {r: -0.1, g: 0.02, b: -0.13, a: 0.02}
+    - _IceTint: {r: 0.21255198, g: 0.27873, b: 0.32599998, a: 0.34901962}
+    - _IceTrail: {r: 0.134, g: 0.134, b: 0.07412766, a: 1}
+    - _ParalaxColor: {r: 0.044544008, g: 0.08039002, b: 0.348, a: 1}
+    - _ParallaxStrength: {r: 0, g: 0.02, b: -0.36, a: 0.04}
+    - _ProjectedShadowColor: {r: 0.1745283, g: 0.5599734, b: 1, a: 1}
+    - _ReflectionColor: {r: 0.07176, g: 0.08507579, b: 0.092, a: 0.8}
+    - _RimColor: {r: 0.03, g: 0.03, b: 0.03, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

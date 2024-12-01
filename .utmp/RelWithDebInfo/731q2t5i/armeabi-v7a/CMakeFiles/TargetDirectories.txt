@@ -1,0 +1,5 @@
+/Users/santiago/Downloads/SD/SurviveDayWork/.utmp/RelWithDebInfo/731q2t5i/armeabi-v7a/CMakeFiles/edit_cache.dir
+/Users/santiago/Downloads/SD/SurviveDayWork/.utmp/RelWithDebInfo/731q2t5i/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+/Users/santiago/Downloads/SD/SurviveDayWork/.utmp/RelWithDebInfo/731q2t5i/armeabi-v7a/FramePacing/CMakeFiles/swappywrapper.dir
+/Users/santiago/Downloads/SD/SurviveDayWork/.utmp/RelWithDebInfo/731q2t5i/armeabi-v7a/FramePacing/CMakeFiles/edit_cache.dir
+/Users/santiago/Downloads/SD/SurviveDayWork/.utmp/RelWithDebInfo/731q2t5i/armeabi-v7a/FramePacing/CMakeFiles/rebuild_cache.dir

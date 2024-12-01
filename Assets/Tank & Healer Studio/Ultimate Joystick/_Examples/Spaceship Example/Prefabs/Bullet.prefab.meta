@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2264fa956e9fc1a459b2ab3887acd877
+timeCreated: 1471432912
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 27695
+  packageName: Ultimate Joystick
+  packageVersion: 3.2.1
+  assetPath: Assets/Tank & Healer Studio/Ultimate Joystick/_Examples/Spaceship Example/Prefabs/Bullet.prefab
+  uploadId: 552382

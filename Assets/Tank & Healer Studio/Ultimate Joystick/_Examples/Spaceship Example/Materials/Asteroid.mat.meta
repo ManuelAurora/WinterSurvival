@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3af48ec0108bdb243be5205e5c2e794b
+timeCreated: 1471430861
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 27695
+  packageName: Ultimate Joystick
+  packageVersion: 3.2.1
+  assetPath: Assets/Tank & Healer Studio/Ultimate Joystick/_Examples/Spaceship Example/Materials/Asteroid.mat
+  uploadId: 552382

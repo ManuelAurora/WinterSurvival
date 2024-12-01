@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 60bd69d40362acc4da96c25de01d69a1
+timeCreated: 1471430825
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 27695
+  packageName: Ultimate Joystick
+  packageVersion: 3.2.1
+  assetPath: Assets/Tank & Healer Studio/Ultimate Joystick/_Examples/Spaceship Example/Materials/SpaceshipGlow.mat
+  uploadId: 552382

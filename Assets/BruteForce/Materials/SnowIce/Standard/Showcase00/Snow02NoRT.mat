@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Snow02NoRT
+  m_Shader: {fileID: 4800000, guid: e52bb9af1fde8f84e978e6e27e785bf8, type: 3}
+  m_Parent: {fileID: 2100000, guid: 09aec50b1664ae64798f68fd53b80a4a, type: 2}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - USE_AL
+  - USE_FOG
+  - USE_LS
+  - USE_WC
+  - _TESSELLATION_EDGE
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _CrackLayers:
+        m_Texture: {fileID: 2800000, guid: d88b56166d52b82409c9c66a30cd119c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _IceTex:
+        m_Texture: {fileID: 2800000, guid: c3152677f4bca3f41ace4b48811dbf3e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LittleSpec:
+        m_Texture: {fileID: 2800000, guid: 08b9a6243a9c3d44593ddabdc8fa426f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxLayers:
+        m_Texture: {fileID: 2800000, guid: d88b56166d52b82409c9c66a30cd119c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Roughness:
+        m_Texture: {fileID: 2800000, guid: a66838d7be9a0924da41c8691cd696cb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SnowHeight:
+        m_Texture: {fileID: 2800000, guid: ee5a8c4683ea6c64c9cacd1026b37848, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SnowTransition:
+        m_Texture: {fileID: 2800000, guid: ee5a8c4683ea6c64c9cacd1026b37848, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AddSnowStrength: 0.5
+    - _DisplacementColorMult: 0.88
+    - _DisplacementOffset: 0.3
+    - _DisplacementShadowMult: 0.6
+    - _DisplacementStrength: 0.35
+    - _FishAngle: 0
+    - _FishIntensity: 1.5
+    - _FishMaskIntensity: 0.442
+    - _FishScale: 0.32
+    - _FishSpeed: 1
+    - _FogScale: 0.21
+    - _HeightScale: 0.53
+    - _IndentDepth: 0.21
+    - _IndentStrength: 1.18
+    - _LightHardness: 0.014
+    - _LightOffset: 0.534
+    - _LittleSpecForce: 1.76
+    - _MainTexMult: 1.48
+    - _NormalMultiplier: 0.02
+    - _NormalRTStrength: 2.2
+    - _ParalaxColorScale: -0.38
+    - _ReflectionOpacity: -4
+    - _ReflectionStrength: 0.07
+    - _RoughnessStrength: 0.66
+    - _ShininessSnow: 10.4
+    - _TransitionPower: 0.92
+    - _TransitionScale: 1.2
+    - _USERT: 0
+    m_Colors:
+    - _BotColor: {r: 0.526566, g: 0.7419584, b: 0.894, a: 1}
+    - _Color: {r: 0.894, g: 0.96094733, b: 1, a: 1}
+    - _CracksStrength: {r: -1.28, g: 0.15, b: 0.1, a: 0.1}
+    - _IceTint: {r: 0.04878999, g: 0.3291508, b: 0.574, a: 0.39607844}
+    - _IceTrail: {r: 0.134, g: 0.134, b: 0.07412766, a: 1}
+    - _MountColor: {r: 0.120717645, g: 0.121025234, b: 0.12156863, a: 1}
+    - _ParalaxColor: {r: 0, g: 0.03668471, b: 0.7058824, a: 1}
+    - _ParallaxStrength: {r: 0, g: 0.15, b: 0.1, a: 0.1}
+    - _ProjectedShadowColor: {r: 0.31199998, g: 0.6486021, b: 1, a: 1}
+    - _ReflectionColor: {r: 0.30490592, g: 0.5153176, b: 0.62352943, a: 0.9647059}
+    - _RimColor: {r: 0.03, g: 0.03, b: 0.03, a: 0}
+    - _SpecColor: {r: 0.740566, g: 0.90487427, b: 1, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

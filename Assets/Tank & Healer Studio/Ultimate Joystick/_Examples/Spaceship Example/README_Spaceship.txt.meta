@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0464a36a90a175242b4c67b429526796
+timeCreated: 1472166295
+licenseType: Store
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 27695
+  packageName: Ultimate Joystick
+  packageVersion: 3.2.1
+  assetPath: Assets/Tank & Healer Studio/Ultimate Joystick/_Examples/Spaceship Example/README_Spaceship.txt
+  uploadId: 552382

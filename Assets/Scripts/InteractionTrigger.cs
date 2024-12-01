@@ -8,7 +8,7 @@
     using UnityEngine;
     using Random = UnityEngine.Random;
 
-    [RequireComponent(typeof(BoxCollider), typeof(Rigidbody))]
+    [RequireComponent(typeof(Collider), typeof(Rigidbody))]
     public class InteractionTrigger : MonoBehaviour
     {
         
@@ -18,52 +18,73 @@
         [SerializeField] public int _hp = 2;
         [SerializeField] private float yScaling=  0.5f;
 
+        public Collider Collider;
         private bool _isNearbyPlayer;
         private Player player;
+        public bool DidStop = true;
 
+        private void Awake()
+        {
+            Collider = GetComponent<Collider>();
+        }
 
         private void Start()
         {
             if (textHp)
             {
-                GetComponent<BoxCollider>().size *= 1.5f;
+                // GetComponent<BoxCollider>().size *= 1.2f;
             }
         }
 
         public void ChangePos()
         {
-            transform.DOMove(FindObjectOfType<Level>().posAnimal[Random.Range(0, 7)].transform.position, 1.5f);
+            Collider.enabled = false;
+            DidStop = false;
+            
+            transform.DOMove(FindObjectOfType<Level>().posAnimal[Random.Range(0, 7)].transform.position, 1.5f)
+                .OnComplete(() =>
+                {
+                    DidStop = true;
+                    Collider.enabled = true;
+                });
         }
+        
         private void OnTriggerEnter(Collider other)
         {
-            if (other.CompareTag("Player") )
-            {
-                if (indexTrigger != GameManager.Instance.indexModeGame)
-                {
-                    return;
-                }
-                player = other.GetComponent<Player>();
-                player.interactionTriggers.Add(this);
-                if (player.interactionTrigger)
-                {
-                    
-                    return;
-                }
-                player.interactionTrigger = this;
-                if (indexTrigger == 0)
-                {
-                 
-                    StartCoroutine(Cutt());
-                    _isNearbyPlayer = true;
-                }
-                else
-                {
-                    Debug.Log("attack" + gameObject.name + Random.Range(0, 9999));
-                    player.transform.DOLookAt(transform.position, 0.2f);
-                    player.Attack();
-                }
-//gameObject.SetActive(false);
-            }
+//             if (other.CompareTag("Player") )
+//             {
+//                 if (indexTrigger != GameManager.Instance.indexModeGame)
+//                 {
+//                     return;
+//                 }
+//                 player = other.GetComponent<Player>();
+//
+//                 var gos = player.interactionTriggers.Select(t => t.gameObject).ToList();
+//
+//                 if (gos.Contains(this.gameObject) == false)
+//                 {
+//                     player.interactionTriggers.Add(this);
+//                 }
+//
+//                 // if (player.interactionTrigger)
+//                 // {
+//                 //     return;
+//                 // }
+//                 player.interactionTrigger = this;
+//                 if (indexTrigger == 0)
+//                 {
+//                  
+//                     StartCoroutine(Cutt());
+//                     _isNearbyPlayer = true;
+//                 }
+//                 else
+//                 {
+//                     // Debug.Log("attack" + gameObject.name + Random.Range(0, 9999));
+//                     // player.transform.DOLookAt(transform.position, 0.2f);
+//                     // player.Attack();
+//                 }
+// //gameObject.SetActive(false);
+//             }
         }
 
         private void FindNewIntercation(Player player)
@@ -83,19 +104,21 @@
             {
                 Debug.Log("attack" + gameObject.name + Random.Range(0, 9999));
                 player.transform.DOLookAt(transform.position, 0.2f);
-                player.Attack();
+                // player.Attack();
             }
         }
         private void OnTriggerExit(Collider other)
         {
+            if (player == null) return;
+            
             if (other.CompareTag("Player"))
             {
                 if (indexTrigger != GameManager.Instance.indexModeGame)
                 {
-                    return;
+                    player.interactionTriggers.Remove(this);
+                    player.interactionTrigger = null;
                 }
-                player.interactionTriggers.Remove(this);
-                player.interactionTrigger = null;
+               
                 if (indexTrigger == 0)
                 {
                     StopAllCoroutines();
@@ -130,7 +153,7 @@
             
             for (int i = 0; i < 5; i++)
             {
-                FindObjectOfType<GameManager>().SetResources(1, player.transform);
+                // FindObjectOfType<GameManager>().SetResources(1, player.transform);
                 yield return new WaitForSeconds(0.1f);
             }
 
@@ -153,7 +176,7 @@ gameObject.SetActive(false);
                     
                     for (int i = 0; i < 2; i++)
                     {
-                        FindObjectOfType<GameManager>().SetResources(0, player.transform);
+                        // FindObjectOfType<GameManager>().SetResources(0, player.transform);
                         await Task.Delay(100);
                     }
                     gameObject.SetActive(false);

@@ -13,12 +13,16 @@ public class Portal : MonoBehaviour
       GetComponent<CapsuleCollider>().isTrigger = true;
    }
 
-   private void OnTriggerEnter(Collider other)
+   private void OnTriggerStay(Collider other)
    {
       if (other.CompareTag("Player"))
       {
-      GameManager.Instance.Home();
-      gameObject.SetActive(false);
+         var distance = Vector3.Distance(other.gameObject.transform.position, this.transform.position);
+         if (distance <= 2f)
+         {
+            GameManager.Instance.ShowWinScreen();
+            gameObject.SetActive(false);
+         }
       }
    }
 }

@@ -3,14 +3,27 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Prey
+  - Wood
+  - TeaPlant
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Player
   - Water
   - UI
+  - Wood
+  - Prey
+  - PostProcessing
+  - Floor
+  - 
+  - Wall
+  - Soil
+  - HardFloor
+  - WaterWall
+  - TeaPlant
   - 
   - 
   - 
@@ -18,17 +31,7 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Hunt
   - 
   - 
   - 
@@ -40,4 +43,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: UI
+    uniqueID: 795361297
     locked: 0

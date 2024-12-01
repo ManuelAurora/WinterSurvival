@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 318aac6f5ee5bf842af931bb67dc5d4a
+timeCreated: 1471639457
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 27695
+  packageName: Ultimate Joystick
+  packageVersion: 3.2.1
+  assetPath: Assets/Tank & Healer Studio/Ultimate Joystick/_Examples/Spaceship Example/Scripts/GameManager.cs
+  uploadId: 552382

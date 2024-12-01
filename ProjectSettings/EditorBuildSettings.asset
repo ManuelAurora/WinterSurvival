@@ -6,7 +6,25 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/New Winter.unity
+    path: Assets/_main/2_Scenes/levels/New Winter.unity
     guid: 1277574123f83bb448a9ee45a499d7cc
-  m_configObjects:
-    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: d5b4fcfb2ec48b046813a8a57600179c, type: 2}
+  - enabled: 1
+    path: Assets/_main/2_Scenes/levels/Stage_1.unity
+    guid: 433c700839f5e4902bb365edb37e390e
+  - enabled: 1
+    path: Assets/_main/2_Scenes/levels/Stage_2.unity
+    guid: c62fe510d64a04a3e8abb2ea65e9afda
+  - enabled: 1
+    path: Assets/_main/2_Scenes/levels/Stage_3.unity
+    guid: 01245b76d9e75466faa677c27a89a966
+  - enabled: 1
+    path: Assets/_main/2_Scenes/levels/Stage_4.unity
+    guid: 858e3133b55414f4cade09981485b30a
+  - enabled: 1
+    path: Assets/_main/2_Scenes/levels/Stage_5.unity
+    guid: 64edd31eab75649f980124a504036aa8
+  - enabled: 1
+    path: Assets/_main/2_Scenes/levels/Stage_6.unity
+    guid: c613dc31c42a947b1a6ff7c9387db771
+  m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0

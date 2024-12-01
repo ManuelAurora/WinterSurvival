@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: a1cb9ca528b3c8b44911c4d0d3ea60d4
+timeCreated: 1471434749
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 27695
+  packageName: Ultimate Joystick
+  packageVersion: 3.2.1
+  assetPath: Assets/Tank & Healer Studio/Ultimate Joystick/_Examples/Spaceship Example/Scripts/AsteroidController.cs
+  uploadId: 552382
