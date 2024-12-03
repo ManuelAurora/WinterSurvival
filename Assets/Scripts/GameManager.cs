@@ -64,6 +64,7 @@ public class GameManager : MonoBehaviour
 
     private GameObject _lastLevel;
     private bool isLost;
+    public bool isCutscene;
 
     private Coroutine freezeCoroutine;
     // private bool _menu;
@@ -81,15 +82,19 @@ public class GameManager : MonoBehaviour
         Instance = this;
         PreyList = new List<Prey>();
 
-        var navGraph = (NavMeshGraph)Astar.graphs[0];
-        navGraph.sourceMesh = surfaceMesh.mesh;
-        // navGraph.offset = surface.transform.position;
-        // navGraph.scale = surface.transform.localScale.x;
-        // navGraph.rotation = new Vector3(90, 0, surface.transform.localRotation.z);
+        if (isCutscene == false)
+        {
+            var navGraph = (NavMeshGraph)Astar.graphs[0];
+            navGraph.sourceMesh = surfaceMesh.mesh;
+            // navGraph.offset = surface.transform.position;
+            // navGraph.scale = surface.transform.localScale.x;
+            // navGraph.rotation = new Vector3(90, 0, surface.transform.localRotation.z);
 
-        Astar.Scan();
 
-        SpawnTrees(50, surface, surfaceLayer, 2, treePrefabs);
+            Astar.Scan();
+
+            SpawnTrees(50, surface, surfaceLayer, 2, treePrefabs);
+        }
     }
 
     private void OnDisable()

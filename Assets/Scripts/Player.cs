@@ -1,8 +1,10 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using DG.Tweening;
+using Pathfinding;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
@@ -57,13 +59,18 @@ public class Player : MonoBehaviour
     public PlayerState state;
     public Coroutine cutCoroutine;
 
+    private AIPath _ai;
+
     // public Tweener huntTweener;
     public bool isAimingAtarget;
     public bool didShot;
     public Prey CurrentPrey;
 
+    public List<Transform> CutSceneMovePoints;
+
     private void Awake()
     {
+        _ai = GetComponent<AIPath>();
         controller = GetComponent<CharacterController>();
     }
 
@@ -269,7 +276,23 @@ public class Player : MonoBehaviour
            treesAround.Remove(other.GetComponent<Tree>());
        }
    }
-   
+
+   // CutScene signals
+
+   public void StartIdle()
+   {
+       animator.SetTrigger("IdleSignal");
+   }
+   public void StartFishing()
+   {
+       animator.SetTrigger("FishingSignal");
+   }
+
+   public void MoveToCutPoint()
+   {
+       _ai.target = CutSceneMovePoints.First();
+   }
+
 }
 
 public enum PlayerState

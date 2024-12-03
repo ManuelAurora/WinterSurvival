@@ -5527,6 +5527,7 @@ MonoBehaviour:
   deer: {fileID: 9141647747640789878}
   wolf: {fileID: 4826126923597995886}
   bear: {fileID: 7896597955803849341}
+  _type: 0
 --- !u!114 &8532942783558667055
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6463,7 +6464,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4851829498239953755
 Transform:
   m_ObjectHideFlags: 0
@@ -12910,7 +12911,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &8501172634814278091
 Transform:
   m_ObjectHideFlags: 0

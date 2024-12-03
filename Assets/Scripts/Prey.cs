@@ -23,6 +23,7 @@ public class Prey : MonoBehaviour
    public float maxSeeDistance = 25f;
    public float maxSeeAngle = 80f;
    public float idleTimer;
+   public bool randomizePrey = true;
 
    [SerializeField] Animal hare;
    [SerializeField] Animal fox;
@@ -83,7 +84,9 @@ public class Prey : MonoBehaviour
             throw new ArgumentOutOfRangeException();
       }
    }
-   void ActivateRandomAnimalModel() {
+   void ActivateRandomAnimalModel()
+   {
+      if (randomizePrey == false) return;
       var modelRoot = ModelRootFromType(_type);
       var models = GetChildrenAnimalModels(modelRoot.gameObject);
       var random = Random.Range(0, models.Count);
