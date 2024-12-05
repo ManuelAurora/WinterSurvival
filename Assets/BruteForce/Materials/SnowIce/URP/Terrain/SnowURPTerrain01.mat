@@ -2,20 +2,31 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!21 &2100000
 Material:
-  serializedVersion: 6
+  serializedVersion: 8
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: SnowURPTerrain01
   m_Shader: {fileID: 4800000, guid: 06aa19b87b8aa174485b5a0ed989e1cb, type: 3}
-  m_ShaderKeywords: IS_T USE_AL USE_FOG USE_LS USE_RT USE_WC _TESSELLATION_EDGE
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - IS_T
+  - USE_AL
+  - USE_FOG
+  - USE_LS
+  - USE_RT
+  - USE_WC
+  - _TESSELLATION_EDGE
+  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
+  m_LockedProperties: _MainTex
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -189,7 +200,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SnowBumpMap:
-        m_Texture: {fileID: 2800000, guid: fb6566c21f717904f83743a5a76dd0b0, type: 3}
+        m_Texture: {fileID: 2800000, guid: f42cea328e314cb44a1359ea9e70a7d6, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SnowHeight:
@@ -248,16 +259,17 @@ Material:
         m_Texture: {fileID: 2800000, guid: 720d82cf97471064989c4473b4475e8f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    m_Ints: []
     m_Floats:
-    - _AddSnowStrength: 0.52
+    - _AddSnowStrength: 1.91
     - _BumpScale: 3.44
     - _Cutoff: 0.361
     - _DetailBumpScale: 3.07
     - _DetailNormalMapScale: 1
-    - _DisplacementColorMult: 0.9
-    - _DisplacementOffset: 0.1
-    - _DisplacementShadowMult: 1.6
-    - _DisplacementStrength: 0.3
+    - _DisplacementColorMult: 0.89
+    - _DisplacementOffset: -0
+    - _DisplacementShadowMult: 0.42
+    - _DisplacementStrength: 0
     - _DstBlend: 0
     - _EffectDisplacementStrength: 0.5
     - _Emission: 0.25
@@ -266,14 +278,14 @@ Material:
     - _FishMaskIntensity: 0.25
     - _FishScale: 0.51
     - _FishSpeed: 1
-    - _FlowMultiplier: 0.3
-    - _FogIntensity: 0.3
+    - _FlowMultiplier: 0.316
+    - _FogIntensity: 0.209
     - _FogScale: 1
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
     - _HeightMultiplier: 0.5
-    - _HeightScale: 0.45
+    - _HeightScale: 0.47
     - _ISADD: 0
     - _ISICE: 0
     - _ISSNOW: 0
@@ -282,11 +294,11 @@ Material:
     - _IceScale: 1
     - _IndentDepth: 0.25
     - _IndentStrength: 1.5
-    - _LightHardness: 0.733
+    - _LightHardness: 0.802
     - _LightIntensity: 1
-    - _LightOffset: 0.245
+    - _LightOffset: 0.202
     - _LittleSpecForce: 0.5
-    - _MainTexMult: 0.11
+    - _MainTexMult: 0.24
     - _Metallic: 0
     - _Metallic0: 0
     - _Metallic1: 0
@@ -297,10 +309,10 @@ Material:
     - _Metallic6: 0
     - _Metallic7: 0
     - _Mode: 0
-    - _NormalMultiplier: 0.47
-    - _NormalRTDepth: 0.18
-    - _NormalRTStrength: 4
-    - _NormalScale: 0.766
+    - _NormalMultiplier: 0.41
+    - _NormalRTDepth: 0.28
+    - _NormalRTStrength: 2.76
+    - _NormalScale: 0.569
     - _NormalScale0: 1
     - _NormalScale1: 1
     - _NormalScale2: 1
@@ -312,22 +324,22 @@ Material:
     - _NormalVector: 0
     - _OcclusionStrength: 1
     - _OffsetScale: 0.14
-    - _OverallScale: 15
-    - _ParalaxColorScale: -1.12
+    - _OverallScale: 16.49
+    - _ParalaxColorScale: -1.23
     - _Parallax: 0.02
     - _ParallaxStrength: 0
-    - _ProceduralDistance: 5.5
+    - _ProceduralDistance: 5.35
     - _ProceduralStrength: 1.5
-    - _ReflectionOpacity: 0.25
-    - _ReflectionStrength: 0.07
-    - _RemoveSnowStrength: 0.5
+    - _ReflectionOpacity: 0.51
+    - _ReflectionStrength: 0.21
+    - _RemoveSnowStrength: 0.56
     - _RoughnessStrength: 2.26
     - _Shininess: 17.3
     - _ShininessIce: 10
     - _ShininessSnow: 25
     - _Smoothness: 0.817
     - _SmoothnessTextureChannel: 0
-    - _SnowNormalScale: 1.5
+    - _SnowNormalScale: 0.64
     - _SnowScale: 0.2
     - _SpecForce: 3
     - _SpecGlossMap: 1
@@ -336,8 +348,8 @@ Material:
     - _SrcBlend: 1
     - _Tess: 6.7
     - _TessellationEdgeLength: 50
-    - _TessellationUniform: 1
-    - _TransitionPower: 0.3
+    - _TessellationUniform: 2.2
+    - _TransitionPower: 0.06
     - _TransitionScale: 13.7
     - _TransparencyValue: 1
     - _USEDECAL: 0
@@ -359,7 +371,7 @@ Material:
     m_Colors:
     - _BaseColor: {r: 0, g: 0.65999997, b: 0.73, a: 1}
     - _BotColor: {r: 0.576631, g: 0.7499591, b: 0.97900003, a: 1}
-    - _Color: {r: 0.8509804, g: 0.9608221, b: 1, a: 1}
+    - _Color: {r: 0.9276729, g: 0.9697392, b: 1, a: 1}
     - _CracksStrength: {r: -1.04, g: 0.36, b: -0.25, a: 0.1}
     - _Emission: {r: 0, g: 0, b: 0, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
@@ -369,10 +381,10 @@ Material:
     - _MountColor: {r: 0.120717645, g: 0.121025234, b: 0.12156863, a: 1}
     - _ParalaxColor: {r: 0, g: 0, b: 0, a: 1}
     - _ParallaxStrength: {r: 0, g: 0.5, b: 0.25, a: 0.15}
-    - _ProjectedShadowColor: {r: 0.42166796, g: 0.7136274, b: 0.90099996, a: 1}
+    - _ProjectedShadowColor: {r: 0.754717, g: 0.754717, b: 0.754717, a: 1}
     - _ReflectionColor: {r: 0, g: 0.099333376, b: 0.14899999, a: 0.8}
     - _RimColor: {r: 0.03, g: 0.03, b: 0.03, a: 0}
-    - _SpecColor: {r: 1, g: 1, b: 1, a: 1}
+    - _SpecColor: {r: 0.7106918, g: 0.7106918, b: 0.7106918, a: 1}
     - _Specular0: {r: 1, g: 1, b: 1, a: 1}
     - _Specular1: {r: 1, g: 1, b: 1, a: 1}
     - _Specular2: {r: 1, g: 1, b: 1, a: 1}
@@ -389,3 +401,5 @@ Material:
     - _TopColor: {r: 1, g: 1, b: 1, a: 1}
     - _TransitionColor: {r: 1, g: 1, b: 1, a: 1}
     - _WireframeColor: {r: 0, g: 0, b: 0, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
