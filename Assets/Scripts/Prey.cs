@@ -156,9 +156,12 @@ public class Prey : MonoBehaviour
          default:
             throw new ArgumentOutOfRangeException();
       }
-      
-      hideAllAnimalModels();
-      ActivateRandomAnimalModel();
+
+      if (randomizePrey)
+      {
+         hideAllAnimalModels();
+         ActivateRandomAnimalModel();
+      }
    }
 
    private void OnValidate()

@@ -5522,6 +5522,7 @@ MonoBehaviour:
   maxSeeDistance: 10
   maxSeeAngle: 45
   idleTimer: 0
+  randomizePrey: 1
   hare: {fileID: 1601554168686607189}
   fox: {fileID: 3055612327154572882}
   deer: {fileID: 9141647747640789878}
@@ -6464,7 +6465,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &4851829498239953755
 Transform:
   m_ObjectHideFlags: 0
@@ -12911,7 +12912,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &8501172634814278091
 Transform:
   m_ObjectHideFlags: 0
