@@ -232,7 +232,7 @@ Material:
     - _Shadow_HSV_S: 0
     - _Shadow_HSV_V: 0
     - _SingleIndirectColor: 0
-    - _Smoothness: 0
+    - _Smoothness: 0.345
     - _SmoothnessTextureChannel: 1
     - _SpecBlend: 1
     - _SpecSmooth: 1
@@ -278,8 +278,8 @@ Material:
     - _ZWrite: 1
     - __dummy__: 0
     m_Colors:
-    - _BaseColor: {r: 0.43813902, g: 0.17172629, b: 0.031139512, a: 1}
-    - _Color: {r: 0.43813902, g: 0.17172629, b: 0.031139512, a: 1}
+    - _BaseColor: {r: 0.5283019, g: 0.25860357, b: 0.061468992, a: 1}
+    - _Color: {r: 0.5283019, g: 0.25860357, b: 0.061468992, a: 1}
     - _ColorDim: {r: 0.03380736, g: 0.0227048, b: 0.022010086, a: 1}
     - _ColorDimCurve: {r: 0.85023, g: 0.85034, b: 0.85045, a: 0.85056}
     - _ColorDimExtra: {r: 0.85023, g: 0.85034, b: 0.85045, a: 0.85056}
